@@ -1,0 +1,251 @@
+{   
+    "repositoryName": "online-cv",
+    "home": {
+        "id": "home",
+        "photoPath": "/static/media/profile.jpg",
+        "name": "Elon Musk",
+        "title": "Engineer, Entrepreneur, and Technoking",
+        "links": [
+            "mailto:elonmusk@gmail.com",
+            "https://github.com/elonmusk",
+            "https://linkedin.com/in/elon-musk"
+        ],
+        "sections" : [ 
+            {
+                "type": "paragraph",
+                "title": "About",
+                "paragraph": "<p>Hi! welcome to my corner of the internet.</p><p>I am an engineer and serial entrepreneur. I enjoy working on technical challenges of all sorts, and my objective is to help the human race evolve. For example, becoming an interplanetary species.</p>"
+            },
+            {
+                "type": "two_column_long_list",
+                "title": "Work Experience",
+                "items": [
+                    {
+                        "title": "CEO and Product Architect",
+                        "description": "Tesla Motors, Inc; Austin, TX, U.S.",
+                        "side_content": "07/2003 - Present"
+                    },
+                    {
+                        "title": "CEO and CTO",
+                        "description": "Space Exploration Technologies Corp; Hawthorne, CA, U.S.",
+                        "side_content": "03/2002 - Present"
+                    },
+                    {
+                        "title": "Founder",
+                        "description": "The Boring Company; Pflugerville, Texas, U.S.",
+                        "side_content": "12/2016 - Present"
+                    },
+                    {
+                        "title": "CEO",
+                        "description": "Neuralink Corporation; Fremont, California, U.S.",
+                        "side_content": "07/2016 - Present"
+                    },
+                    {
+                        "title": "CEO",
+                        "description": "X.com and Paypal, Inc; San Jose, California, U.S.",
+                        "side_content": "03/1999 - 10/2000"
+                    }
+                ]
+            },
+            {
+                "type": "two_column_long_list",
+                "title": "Education",
+                "items": [
+                    {
+                        "title": "B.S. Economics",
+                        "description": "Wharton School of the University of Pennsylvania (4.00/4.00)",
+                        "side_content": "09/1992 - 06/1995"
+                    },
+                    {
+                        "title": "B.A. Physics",
+                        "description": "University of Pennsylvania (4.00/4.00)",
+                        "side_content": "09/1992 - 06/1995"
+                    }
+                ]
+            },
+            {
+                "type": "two_column_short_list",
+                "title": "Skills",
+                "items": [
+                    {
+                        "title": "Business",
+                        "value": "Leadership, idea to profitable business conversion, marketing, goal definition, managerial finance"
+                    },
+                    {
+                        "title": "Communication",
+                        "value": "Technical to non-technical concept explanation, event presentations, social media"
+                    },
+                    {
+                        "title": "Programming",
+                        "value": "Assembly, C, C++"
+                    },
+                    {
+                        "title": "Software Engineering",
+                        "value": "Agile methodologies, test-driven development, UX testing sessions"
+                    },
+                    {
+                        "title": "Languages",
+                        "value": "English (fluent), Afrikaans (fluent)"
+                    }
+                ]
+            },
+            {
+                "type": "two_column_long_list",
+                "title": "Projects",
+                "items": [
+                    {
+                        "title": "Dawn of the cyborgs",
+                        "description": "Merge man and machine by developing technology capable of enhancing human capacties.",
+                        "side_content": "<a href=\"project/00\">read more</a>"
+                    },
+                    {
+                        "title": "Mars colonies",
+                        "description": "Enable sustainable colonial life in Mars, as one of the first steps of physical human space expansion.",
+                        "side_content": "<a href=\"project/01\">read more</a>"
+                    }
+                ]
+            },
+            {
+                "type": "two_column_long_list",
+                "title": "Awards",
+                "items": [
+                    {
+                        "title": "Gold Space Medal",
+                        "description": "by  Fédération Aéronautique Internationale",
+                        "side_content": "<a href=\"https://web.archive.org/web/20150419204916/http://www.fai.org/envc-awards/envc-news-awards/35094-barron-hilton-and-elon-musk-honoured-with-the-highest-awards\" target=\"_blank\" rel=\"noopener noreferrer\">view</a>"
+                    },
+                    {
+                        "title": "Von Braun Trophy",
+                        "description": "by National Space Society",
+                        "side_content": "<a href=\"https://web.archive.org/web/20170801035127/http://www.nss.org/news/releases/pr20090617.html\" target=\"_blank\" rel=\"noopener noreferrer\">view</a>"
+                    }
+                ]
+            },
+            {
+                "type": "contact",
+                "title": "Contact",
+                "links": [
+                    "mailto:elonmusk@gmail.com",
+                    "https://github.com/elonmusk",
+                    "https://linkedin.com/in/elon-musk"
+                ]
+            }
+        ]
+    },
+
+    "projects": {
+        "00": {
+            "id": "p_0",
+            "numId": 0,
+            "title": "Dawn of the cyborgs",
+            "presentationImagePath": "/static/media/project_0.gif",
+            "sections" : [ 
+                {
+                    "type": "paragraph",
+                    "title": "Description",
+                    "paragraph": "<p>I am developing a fully-implanted, wireless, high-channel count <a href=\"https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface\" target=\"_blank\" rel=\"noopener noreferrer\">brain-machine interface (BMI)</a> with the goal of enabling people with paralysis to directly use their neural activity to operate computers and mobile devices with speed and ease.</p><p>Micron-scale threads would be inserted into areas of the brain that control movement. Each thread contains many electrodes and connects them to an implant called the “Link.”</p>"
+                },
+                {
+                    "type": "two_column_short_list",
+                    "title": "Skills",
+                    "items": [
+                        {
+                            "title": "Programming",
+                            "value": "Assembly, C"
+                        },
+                        {
+                            "title": "Other Software",
+                            "value": "GNU/Lunix, Git, GitLab"
+                        },
+                        {
+                            "title": "Languages",
+                            "value": "English"
+                        }
+                    ]
+                },
+                {
+                    "type": "two_column_icon_list",
+                    "title": "Resources",
+                    "items": [
+                        {
+                            "title": "White paper",
+                            "type": "pdf",
+                            "url": "https://www.biorxiv.org/content/10.1101/703801v4.full.pdf"
+                        },
+                        {
+                            "title": "Blog",
+                            "type": "link",
+                            "url": "https://neuralink.com/blog/"
+                        },
+                        {
+                            "title": "Gertie's snout boops",
+                            "type": "link",
+                            "url": "https://youtu.be/iSutodqCZ74"
+                        },
+                        {
+                            "title": "2020 Progress update",
+                            "type": "link",
+                            "url": "https://youtu.be/DVvmgjBL74w"
+                        }
+                    ]
+                }
+            ]
+        },
+        "01": {
+            "id": "p_1",
+            "numId": 1,
+            "title": "Mars colonies",
+            "presentationImagePath": "/static/media/project_1.jpg",
+            "sections" : [ 
+                {
+                    "type": "paragraph",
+                    "title": "Description",
+                    "paragraph": "<p>Why Mars? At an average distance of 140 million miles, Mars is one of Earth's closest habitable neighbors. Mars is about half again as far from the Sun as Earth is, so it still has decent sunlight. It is a little cold, but we can warm it up. Its atmosphere is primarily CO2 with some nitrogen and argon and a few other trace elements, which means that we can grow plants on Mars just by compressing the atmosphere. Gravity on Mars is about 38% of that of Earth, so you would be able to lift heavy things and bound around. Furthermore, the day is remarkably close to that of Earth.</p><p>“You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars.” - Elon Musk</p>"
+                },
+                {
+                    "type": "two_column_short_list",
+                    "title": "Skills",
+                    "items": [
+                        {
+                            "title": "Programming",
+                            "value": "C, C++"
+                        },
+                        {
+                            "title": "Other Software",
+                            "value": "GNU/Lunix, Git, GitLab"
+                        },
+                        {
+                            "title": "Languages",
+                            "value": "English"
+                        },
+                        {
+                            "title": "Other",
+                            "value": "Agile methodologies, test-driven development, UX testing sessions, teamwork"
+                        }
+                    ]
+                },
+                {
+                    "type": "two_column_icon_list",
+                    "title": "Resources",
+                    "items": [
+                        {
+                            "title": "Falcon user guide",
+                            "type": "pdf",
+                            "url": "https://www.spacex.com/media/Falcon_Users_Guide_082020.pdf"
+                        },
+                        {
+                            "title": "Unofficial SpaceX API",
+                            "type": "repository",
+                            "url": "https://github.com/r-spacex/SpaceX-API"
+                        },
+                        {
+                            "title": "Mission website",
+                            "type": "link",
+                            "url": "https://www.spacex.com/human-spaceflight/mars/"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+} 

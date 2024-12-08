@@ -1,0 +1,138 @@
+.section {
+    padding-top: 5em;
+}
+
+.half-section-top-padding {
+    padding-top: 2.5em;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+#presentation {
+    height: 100vh;
+    padding: 0px;
+}
+
+#project-presentation {
+    height: 62.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: contain;
+}
+
+.vanta-canvas {
+    padding: 0px;
+}
+
+.no-padding {
+    padding: 0em !important;
+}
+
+.section.no-padding-top {
+    padding-top: 0em;
+}
+
+.icon {
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+a .icon {
+    color: black;
+}
+
+#last-updated {
+    padding-top: 5em;
+}
+
+.md-vertical-padding {
+    padding-top: 2.5em;
+}
+
+img .presentation-image {
+    height: 100%;
+    width: auto;
+    padding-bottom: 1.5em;
+}
+
+.profile-picture {
+    height: 10em;
+    width: auto;
+    margin-bottom: 1.5em;
+}
+
+.presentation-text {
+    color: #f0f0f0;
+}
+
+.icon.presentation-icon {
+    color: #f0f0f0;
+    font-size: 1.5em;
+}
+
+.bounce-color {
+    animation: effect 7.5s linear infinite;
+}
+
+.pad-top-5 {
+    padding-top: 5em;
+}
+
+.date-range p {
+    float: right;
+}
+
+.carousel-caption,
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.presentation-title {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.15s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.15s ease-in-out;
+}
+
+.return-home-icon {
+    font-size: inherit;
+}
+
+.carousel-indicators button{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-item img {
+        height: 30vh;
+        object-fit: cover;
+    }
+}
+
+@keyframes effect {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
